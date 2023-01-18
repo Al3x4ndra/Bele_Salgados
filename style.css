@@ -72,14 +72,6 @@ body {
     border: 3px solid #DB5A5A;
 }
 
-.form-control.error i.img-error {
-    visibility: visible;
-}
-
-.form-control.success i.img-success {
-    visibility: visible;
-}
-
 .form-control.error small{
     color: #DB5A5A;
     visibility: visible;
