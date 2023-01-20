@@ -18,6 +18,16 @@
             campo_nome.disabled = true;
         }
 
+        if(numberValue === ''){
+        errorValidation(password, 'Preencha esse campo')
+        }
+    else if (passwordValue.length < 8){
+        errorValidation(password, 'A senha deve ter + de 8 caracteres')   
+        }
+    else {
+        successValidation(password)
+        }
+
     </script>
 
         <body>
