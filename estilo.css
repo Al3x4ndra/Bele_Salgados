@@ -1,20 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background: #a65313;
     display: flex;
-    font-family: Poppins;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
-
-    border: 0;
+    background: #d4881f;
 }
 
-.header {
-    padding: 30px 40px;
+.mapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #ffff;
 }
 
-.header h2 {
-    font-weight: 600;
-    color: white;
-    font-size: 30px;
+.mapBox iframe{
+    width: 100%;
+    height: 100%;
 }
