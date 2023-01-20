@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Site para Bele Salgados</title>
+            <meta charset="utf-8" />
+        </head>
+        <body>
+            <form action="destino.php" method="post">
+            </p><h3>Agendamento</h3></p>
+            <p>
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data"/>
+            </p>
+            
+            <p>
+                <label for="hora">Hora:</label>
+                <input type="text" name="hora" id="hora"/>
+            </p>
+            
+            <p><h3>Tipos de Salgados</h3></p>
+            <p>
+                <label for="quantidade">
+                    Quantidade:
+                </label>
+                    <select name="quantidade" id="quantidade">
+                        <option value="zero">0</option>
+            
+                        <option value="vinte">20</option>
+            
+                        <option value="cinquenta">50</option>
+            
+                        <option value="cem">100</option>
+            
+                        <option value="cento_cinquenta">150</option>
+            
+                        <option value="duzentos">200</option>
+            
+                        <optio value="duzentos_cinquenta">250</option>
+                    </select>
+                <p>
+                <label for="outra_quantidade">
+                    Outra quantidade:
+                </label><br />
+                <textarea name="outra_quantidade" id="outra_quantidade" required placeholder="Digite a quantidade"></textarea>
+                </p>
+            </p>
+            
+            <p>
+                Tamanho:<br />
+                <input type="radio" name="tamanho" value="salgados_festa" id="salgados_festa"/>
+                <label for="salgados_festa">Salgados de Festa</label><br />
+                
+                <input type="radio" name="tamanho" value="salgados_grandes" id="salgados_grandes"/>
+                <label for="salgados_grandes">Salgados Grandes</label><br />
+            
+                <input type="radio" name="tamanho" value="salgados_petiscos" id="salgados_petiscos"/>
+                <label for="salgados_petiscos">Salgados para Petiscos</label><br />
+            </p>
+            
+            <p>
+                Forma de Pagamento:<br />
+                <input type="radio" name="forma_pagamento" value="pix" id="pix"/>
+                <label for="pix">PIX</label><br />
+            
+            <p>
+                <input type="radio" name="forma_pagamento" value="dinheiro_especie" id="dinheiro_especie"/>
+                <label for="dinheiro_especie">Dinheiro em Espécie</label><br />
+            </p>
+            
+            <p>
+            <input type="radio" name="forma_pagamento" value="cartao" id="cartao"/>
+            <label for="cartao">Cartão</label><br />
+                <label for="cartao">
+                Selecione a opção:
+                </label>
+                <select name="cartao" id="cartao">
+                    <option value="debito">Débito</option>
+                    <option value="credito">Crédito</option>
+                </select>
+            </p>
+            
+            <p>
+                <input type="submit" value="Salvar Pedido" />
+            </p>
+            </form>
+            <p>Para ver mais entre em nosso <a href="https://instagram.com/bele_salgadoss?igshid=YmMyMTA2M2Y=">Instagram</a></p>
+        </body>
+    </html>
