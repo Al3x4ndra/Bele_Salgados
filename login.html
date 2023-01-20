@@ -7,26 +7,37 @@
     <title>Login</title>
 </head>
     <script>
-         var nome = prompt("Digite seu nome");
-         document.write("<br> </br>");
-
-         var senha = prompt("Digite sua senha"); maxLength="8"
-         document.write("<br> </br>");
+         
 
          function Voltar(){
             var campo_nome = document.getElementById("nome");
             campo_nome.disabled = true;
         }
-
+       
 
 
     </script>
 
         <body>
+
             <h1><nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #a65313">
+
+                <form action="destino.php" method="post">
+                    <p><h3>Login</h3></p>
+                    <p>
+                        <label for="nome">Nome de Usuário:</label>
+                        <input type="text" name="nome" id="nome"/>
+    
+                    </p>
+                    
+                    <p>                       
+                         <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" required placeholder="Somente números"/>    
+                        
+                    </p>
                 <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html#"><button onclick="Voltar()">Voltar</button></a>   
                 
-                
+            
                 
         </body>
 
