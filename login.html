@@ -10,7 +10,7 @@
          var nome = prompt("Digite seu nome");
          document.write("<br> </br>");
 
-         var senha = prompt("Digite sua senha");
+         var senha = prompt("Digite sua senha") ;
          document.write("<br> </br>");
 
          function Voltar(){
@@ -18,21 +18,17 @@
             campo_nome.disabled = true;
         }
 
-        if(numberValue === ''){
-        errorValidation(password, 'Preencha esse campo')
-        }
-    else if (passwordValue.length < 8){
-        errorValidation(password, 'A senha deve ter + de 8 caracteres')   
-        }
-    else {
-        successValidation(password)
-        }
+
 
     </script>
 
         <body>
             <h1><nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #a65313">
-                <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html#"><button onclick="Voltar()">Voltar</button></a>                
+                <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html#"><button onclick="Voltar()">Voltar</button></a>   
+                <label for="senhaUsuario">Senha: </label>
+                <input id="senhaUsuario" type="password" required>
+                <input type="submit" value="Enviar">
+             
         </body>
 
 
