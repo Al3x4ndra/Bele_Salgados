@@ -7,11 +7,7 @@
     <title>Login</title>
 </head>
     <script>
-         var nome = prompt("Digite seu nome");
-         document.write("<br> </br>");
-
-         var senha = prompt("Digite sua senha"); maxLength="8"
-         document.write("<br> </br>");
+         
 
          function Voltar(){
             var campo_nome = document.getElementById("nome");
@@ -26,7 +22,17 @@
             <h1><nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #a65313">
                 <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html#"><button onclick="Voltar()">Voltar</button></a>   
                 
-                
+                <form action="destino.php" method="post">
+                    <p><h3>Cadastro do Cliente</h3></p>
+                    <p>
+                        <label for="nome">Nome de Usuário:</label>
+                        <input type="text" name="nome" id="nome"/>
+    
+                        document.write("<br> </br>");
+    
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha"/>
+                    </p>
                 
         </body>
 
