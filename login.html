@@ -13,12 +13,7 @@
             var campo_nome = document.getElementById("nome");
             campo_nome.disabled = true;
         }
-        if(numberValue === ''){
-        errorValidation(password, 'Preencha esse campo')
-    }
-    else if (passwordValue.length < 8){
-        errorValidation(password, 'A senha deve ter + de 8 caracteres')   
-    }
+       
 
 
     </script>
@@ -37,7 +32,7 @@
                     
                     <p>                       
                          <label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha"/>
+                        <input type="password" name="senha" id="senha" required placeholder="Somente números"/>    
                         
                     </p>
                 <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html#"><button onclick="Voltar()">Voltar</button></a>   
