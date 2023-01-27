@@ -32,3 +32,65 @@ body {
     color: #d4881f;
     font-size: 30px;
 }
+
+.pagamento{
+    width: 100%;
+}
+
+.form {
+    padding: 0 20px 5px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #d4881f;
+}
+
+.form-control input {
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.selecao{
+    width: 100%;
+}
+
+.quantidade{
+    width: 100%;
+}
+
+.outra{
+    width: 100%;
+}
+.conteudo
+{
+    width: 60%;
+}
+
+.form button {
+    background-color: #d4881f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
