@@ -21,6 +21,8 @@ body {
     border: 2px solid #d4881f;
     width: 600px;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -28,6 +30,7 @@ body {
 }
 
 .header h2 {
+    text-align: left;
     font-weight: 600;
     color: #d4881f;
     font-size: 30px;
@@ -58,6 +61,16 @@ body {
 
     font-size: 14px;
 
-    width: 50%;
+    width: 100%;
     padding: 15px;
+}
+
+.selecao
+{
+width: 100%;
+}
+
+.conteudo
+{
+    width: 60%;
 }
