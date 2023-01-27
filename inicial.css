@@ -1,11 +1,17 @@
-body {
-    background-color: #a65313;
-    color: #FFF;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.btn-bd-primary {
-    
-  }
+body{
+    text-align: center;
+    color: #FFF;
+    background-color: #a65313;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+}
 
 footer {
     text-align: center;
