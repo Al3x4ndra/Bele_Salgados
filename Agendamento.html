@@ -41,22 +41,29 @@
         </div>
     
     
-        <p><h3>Tipos de Salgados</h3></p>
-        <p>
+        <div class="header">
+            <h2>Tipo de salgados</h2>
+        </div>
 
+        <form class="form" id="form"></form>
+
+        <div class="form-control">
             <input type="radio" name="tamanho" value="salgados_festa" id="salgados_festa"/>
             <label for="salgados_festa">Salgados de Festa</label><br />
-            
+           
             <input type="radio" name="tamanho" value="salgados_grandes" id="salgados_grandes"/>
             <label for="salgados_grandes">Salgados Grandes</label><br />
-        
+
             <input type="radio" name="tamanho" value="salgados_petiscos" id="salgados_petiscos"/>
             <label for="salgados_petiscos">Salgados para Petiscos</label><br />
+        </div>
+        
 
-        </p>
+        <div class="header">
+            <h2>Quantidade</h2>
+        </div>
 
-        <p><h3> Quantidade</h3></p>
-        <P>
+        <div class="form-control">
         </label>
         <select name="quantidade" id="quantidade">
             <option value="zero">0</option>
@@ -73,13 +80,16 @@
 
             <optio value="duzentos_cinquenta">250</option>
         </select>
-        </P>
-        <p>
-            <label for="outra_quantidade">
+        
+        <label for="outra_quantidade">
                 Quantidade desejada:
-            </label><br />
+        </label><br />
             <textarea name="outra_quantidade" id="outra_quantidade" required placeholder="Digite a quantidade"></textarea>
-        </p>
+        <small>Error Message</small>
+        </div>
+    
+
+        
 
         <p><h3> Forma de Pagamento</h3></p>
         <p>
