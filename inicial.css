@@ -1,14 +1,10 @@
 body {
     background-color: #a65313;
+    color: #FFF;
 }
 
 .btn-bd-primary {
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-d4881f);
-    --bs-btn-border-color: var(--bd-d4881f);
-    --bs-btn-border-radius: .5rem;
-    --bs-btn-hover-color: var(--bs-white);
+    
   }
 
 footer {
