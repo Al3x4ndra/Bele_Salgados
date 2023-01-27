@@ -14,9 +14,7 @@
             campo_nome.disabled = true;
         }
 
-        function goBack() {
-            window.history.back()
-        }
+
     </script>
 
     <div>
@@ -33,9 +31,39 @@
             <input type="text" name="hora" id="hora"/>
         </p>
     
+        <p><h3>Tipos de Salgados</h3></p>
+        <p>
 
-    
-        <button onclick="goBack()">Go Back</button>
+            <input type="radio" name="tamanho" value="salgados_festa" id="salgados_festa"/>
+            <label for="salgados_festa">Salgados de Festa</label><br />
+            
+            <input type="radio" name="tamanho" value="salgados_grandes" id="salgados_grandes"/>
+            <label for="salgados_grandes">Salgados Grandes</label><br />
+        
+            <input type="radio" name="tamanho" value="salgados_petiscos" id="salgados_petiscos"/>
+            <label for="salgados_petiscos">Salgados para Petiscos</label><br />
+
+        </p>
+
+        <p><h3> Quantidade</h3></p>
+        <P>
+        </label>
+        <select name="quantidade" id="quantidade">
+            <option value="zero">0</option>
+
+            <option value="vinte">20</option>
+
+            <option value="cinquenta">50</option>
+
+            <option value="cem">100</option>
+
+            <option value="cento_cinquenta">150</option>
+
+            <option value="duzentos">200</option>
+
+            <optio value="duzentos_cinquenta">250</option>
+        </select>
+        </P>
 
         <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html"><button type="submit">Voltar</button></a>
     </div>
