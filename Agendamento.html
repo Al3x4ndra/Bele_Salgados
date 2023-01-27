@@ -7,17 +7,37 @@
     <title>Agendamento</title>
 </head>
 <body>
-    <form action="destino.php" method="post">
-    </p><h3>Agendamento</h3></p>
-    <p>
-        <label for="data">Data:</label>
-        <input type="date" name="data" id="data"/>
-    </p>
+
+    <script>
+        function Voltar(){
+            var campo_nome = document.getElementById("nome");
+            campo_nome.disabled = true;
+        }
+
+        function goBack() {
+            window.history.back()
+        }
+    </script>
+
+    <div>
+
+        <form action="destino.php" method="post">
+        </p><h3>Agendamento</h3></p>
+        <p>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data"/>
+        </p>
     
-    <p>
-        <label for="hora">Hora:</label>
-        <input type="text" name="hora" id="hora"/>
-    </p>
+        <p> 
+            <label for="hora">Hora:</label>
+            <input type="text" name="hora" id="hora"/>
+        </p>
     
+
+    
+        <button onclick="goBack()">Go Back</button>
+
+        <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html"><button type="submit">Voltar</button></a>
+    </div>
 </body>
 </html>
