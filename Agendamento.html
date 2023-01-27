@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento</title>
+    <link rel="stylesheet" href="agendamento.css">
 </head>
 <body>
 
@@ -31,13 +32,11 @@
         <div class="form-control">
             <label for="data">Data:</label>
             <input type="date" name="data" id="data"/>
-            <small>Error Message</small>
         </div>
 
         <div class="form-control">
             <label for="hora">Hora:</label>
             <input type="text" name="hora" id="hora"/>
-                <small>Error Message</small>
         </div>
     
     
@@ -48,16 +47,16 @@
         <form class="form" id="form"></form>
 
         <div class="form-control">
-            <input type="radio" name="tamanho" value="salgados_festa" id="salgados_festa"/>
-            <label for="salgados_festa">Salgados de Festa</label><br />
-           
-            <input type="radio" name="tamanho" value="salgados_grandes" id="salgados_grandes"/>
-            <label for="salgados_grandes">Salgados Grandes</label><br />
 
-            <input type="radio" name="tamanho" value="salgados_petiscos" id="salgados_petiscos"/>
-            <label for="salgados_petiscos">Salgados para Petiscos</label><br />
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Selecione</option>
+                <option value="salgados_festa">Salgados de Festa</option><br />
+                <option value="salgados_grandes">Salgados Grandes</option><br />
+                <option value="salgados_petiscos">Salgados para Petiscos</option><br />
+              </select>
         </div>
         
+        <br />
 
         <div class="header">
             <h2>Quantidade</h2>
@@ -79,30 +78,32 @@
             <option value="duzentos">200</option>
 
             <optio value="duzentos_cinquenta">250</option>
-        </select>
+        </select><br />
         
+        <br />
+
         <label for="outra_quantidade">
                 Quantidade desejada:
-        </label><br />
+        </label>
             <textarea name="outra_quantidade" id="outra_quantidade" required placeholder="Digite a quantidade"></textarea>
-        <small>Error Message</small>
-        </div>
-    
-
-        
+        </div>      
 
         <div class="header">
             <h2>Forma de Pagamento</h2>
         </div>
         <div class="form-control">
-            <input type="radio" name="forma_pagamento" value="pix" id="pix"/>
-            <label for="pix">PIX</label><br />
+            <input class="form-check-input" type="radio" name="forma_pagamento" id="pix"/>
+            <label class="form-check-label" for="pix">PIX</label><br />
 
-            <input type="radio" name="forma_pagamento" value="dinheiro_especie" id="dinheiro_especie"/>
-            <label for="dinheiro_especie">Dinheiro em Espécie</label><br />
+            <br />
 
-            <input type="radio" name="forma_pagamento" value="cartao" id="cartao"/>
-            <label for="cartao">Cartão</label><br />
+            <input class="form-check-input" type="radio" name="forma_pagamento"id="dinheiro_especie"/>
+            <label class="form-check-label" for="dinheiro_especie">Dinheiro em Espécie</label><br />
+
+            <br />
+
+            <input class="form-select form-select" type="radio" name="forma_pagamento" id="cartao"/>
+            <label class="form-check-label" for="cartao">Cartão</label><br />
             <label for="cartao">
                 Selecione a opção:
             </label>
