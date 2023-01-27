@@ -22,8 +22,6 @@
 
         <div class="conteudo">
 
-        <form class="form" id="form">
-
         <button href="file:///C:/projetoaw/Bele_Salgados/inicial.html" ></button>
 
 
@@ -31,7 +29,7 @@
             <h2>Agendamento</h2>
         </div>
 
-        
+        <form class="form" id="form"></form>
 
         <div class="form-control">
             <label for="data">Data:</label>
@@ -66,7 +64,7 @@
             <h2>Quantidade</h2>
         </div>
 
-        <div class="form-control">
+        <div class="quantidade">
         </label>
         <select name="quantidade" id="quantidade">
             <option value="zero">0</option>
@@ -87,15 +85,17 @@
         <br />
 
         <label for="outra_quantidade">
-                Quantidade desejada:
-        </label>
+                <h3>Quantidade desejada:</h3>
+        </label><br />
+
             <textarea name="outra_quantidade" id="outra_quantidade" required placeholder="Digite a quantidade"></textarea>
         </div>      
 
         <div class="header">
             <h2>Forma de Pagamento</h2>
         </div>
-        <div class="form-control">
+
+        <div class="pagamento">
             <input class="form-check-input" type="radio" name="forma_pagamento" id="pix"/>
             <label class="form-check-label" for="pix">PIX</label><br />
 
@@ -106,7 +106,7 @@
 
             <br />
 
-            <input class="form-select form-select" type="radio" name="forma_pagamento" id="cartao"/>
+            <input class="form-select " type="radio" name="forma_pagamento" id="cartao"/>
             <label class="form-check-label" for="cartao">Cartão</label><br />
             <label for="cartao">
                 Selecione a opção:
@@ -117,13 +117,14 @@
             </select>
         </div>
             
+        <br />
             
-            <div>
-                <input type="submit" value="Salvar Pedido" />
+                <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html"><button type="submit">Voltar</button></a>
+                <button class="btn btn-primary" type="button">Salvar Pedido</button>
             </div>
-        </form>
-        <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html"><button type="submit">Voltar</button></a>
     </div>
     </div>
+
+    <script src="agendamento.css"></script>
 </body>
 </html>

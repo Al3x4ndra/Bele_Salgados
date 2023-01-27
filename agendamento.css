@@ -65,12 +65,31 @@ body {
     padding: 15px;
 }
 
-.selecao
-{
-width: 100%;
+.selecao{
+    width: 100%;
 }
 
+.quantidade{
+    width: 100%;
+}
+
+.outra{
+    width: 100%;
+}
 .conteudo
 {
     width: 60%;
+}
+
+.form button {
+    background-color: #d4881f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
 }
