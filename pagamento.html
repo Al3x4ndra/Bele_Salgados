@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma de Pagamento</title>
+</head>
+<body>
+
+<div class="header">
+    <h2>Forma de Pagamento</h2>
+</div>
+
+<div class="pagamento">
+    <input class="form-check-input" type="radio" name="forma_pagamento" id="pix"/>
+    <label class="form-check-label" for="pix">PIX</label><br />
+
+    <br />
+
+    <input class="form-check-input" type="radio" name="forma_pagamento"id="dinheiro_especie"/>
+    <label class="form-check-label" for="dinheiro_especie">Dinheiro em Espécie</label><br />
+
+    <br />
+
+    <input class="form-select" type="radio" name="forma_pagamento" id="cartao"/>
+    <label class="form-check-label" for="cartao">Cartão</label><br />
+    <label for="cartao">
+        Selecione a opção:
+    </label>
+    <select name="cartao" id="cartao">
+        <option value="debito">Débito</option>
+        <option value="credito">Crédito</option>
+    </select>
+</div>
+
+</body>
+</html>
