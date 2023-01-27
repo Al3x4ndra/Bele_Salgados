@@ -9,27 +9,18 @@
 </head>
 <body>
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-            <img src="Bele_Logotipo.jpg.png" alt="Bele_Logotipo" width="30" height="24">
-        </a>
-        </div>
+    <script>
+        function Voltar(){
+            var campo_nome = document.getElementById("nome");
+            campo_nome.disabled = true;
+        }
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="file:///C:/autoriaweb/Bele_Salgados/localizacao.html" target="_blank">
-                  Localização</a>
-              </li>
-            </ul>
-        </div>
-    </nav>
+    </script>
+
+    <div class="container">
 
         <div class="conteudo">
-
-            <form class="form" id="form"></form>
 
         <button href="file:///C:/projetoaw/Bele_Salgados/inicial.html" ></button>
 
@@ -37,6 +28,8 @@
          <div class="header">
             <h2>Agendamento</h2>
         </div>
+
+        <form class="form" id="form"></form>
 
         <div class="form-control">
             <label for="data">Data:</label>
@@ -48,9 +41,12 @@
             <input type="text" name="hora" id="hora"/>
         </div>
     
+    
         <div class="header">
             <h2>Tipo de salgados</h2>
         </div>
+
+        <form class="form" id="form"></form>
 
         <div class="form-control">
 
@@ -98,7 +94,7 @@
         <br />
             
                 <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html"><button type="submit">Voltar</button></a>
-                <a href="file:///C:/autoriaweb/Bele_Salgados/pagamento.html" target="_self"><button type="submit">Salvar Pedido</button></a>
+                <a href="file:///C:/autoriaweb/Bele_Salgados/pagamento.html"><button type="submit">Salvar Pedido</button></a>
             </div>
     </div>
     </div>
