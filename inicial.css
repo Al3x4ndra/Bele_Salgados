@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin-left: auto;
+    padding: auto;
     box-sizing: border-box;
 }
 
@@ -13,14 +13,9 @@ body{
     justify-content: center;
 }
 
-footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    background-color: #d4881f;
-    color: #FFF;
+.descricao{
     width: 100%;
-    height: 100px;    
-    text-align: center;
-    line-height: 100px;
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
 }
