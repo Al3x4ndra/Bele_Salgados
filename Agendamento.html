@@ -9,27 +9,15 @@
 </head>
 <body>
 
-    <script>
-        function Voltar(){
-            var campo_nome = document.getElementById("nome");
-            campo_nome.disabled = true;
-        }
-
-
-    </script>
-
     <div class="container">
 
         <div class="conteudo">
-
-        <button href="file:///C:/projetoaw/Bele_Salgados/inicial.html" ></button>
-
 
          <div class="header">
             <h2>Agendamento</h2>
         </div>
 
-        <form class="form" id="form"></form>
+        <form class="form" ation="pagamento.html">
 
         <div class="form-control">
             <label for="data">Data:</label>
@@ -46,15 +34,15 @@
             <h2>Tipo de salgados</h2>
         </div>
 
-        <form class="form" id="form"></form>
-
         <div class="form-control">
 
             <select class="selecao">
                 <option selected>Selecione</option>
+                <option value="salgados_petiscos">Combos</option><br />
                 <option value="salgados_festa">Salgados de Festa</option><br />
                 <option value="salgados_grandes">Salgados Grandes</option><br />
                 <option value="salgados_petiscos">Salgados para Petiscos</option><br />
+                <option value="salgados_petiscos">Salgados de Revenda</option><br />
               </select>
         </div>
         
@@ -94,7 +82,9 @@
         <br />
             
                 <a href="file:///C:/autoriaweb/Bele_Salgados/inicial.html"><button type="submit">Voltar</button></a>
-                <a href="file:///C:/autoriaweb/Bele_Salgados/pagamento.html"><button type="submit">Salvar Pedido</button></a>
+                <button>Salvar Pedido</button>
+
+            </form>
             </div>
     </div>
     </div>
