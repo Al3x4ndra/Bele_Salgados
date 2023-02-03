@@ -64,34 +64,6 @@ body {
     padding: 15px;
 }
 
-.form-control.success input {
-    border: 3px solid #4ECA64;
-}
-
-.form-control.error input {
-    border: 3px solid #DB5A5A;
-}
-
-.form-control.error small{
-    color: #DB5A5A;
-    visibility: visible;
-}
-
-.form-control i {
-    position: absolute;
-    top: 45px;
-    right: 10px;
-    visibility: hidden;
-}
-
-.form-control small {
-    visibility: hidden;
-    position: absolute;
-    margin-top: 5px;
-    font-size: 14px;
-
-}
-
 .form button {
     background-color: #d4881f;
     border-radius: 5px;
